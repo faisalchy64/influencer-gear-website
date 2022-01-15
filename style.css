@@ -10,6 +10,11 @@ body {
     color: #1C2833;
 }
 
+a {
+    text-decoration: none;
+    color: #1C2833;
+}
+
 /* header section */
 .header-container {
     width: 85%;
@@ -43,7 +48,9 @@ nav h3 {
 .menu ul li {
     margin-right: 2rem;
     font-size: 0.9rem;
+    cursor: pointer;
 }
+
 /* nav section */
 
 /* preorder section */
@@ -72,18 +79,21 @@ nav h3 {
 }
 
 .column img {
-    width: 80%;
+    width: 100%;
 }
 
 .order-button {
     display: inline-block;
-    vertical-align: middle;
     padding: 10px 15px;
     margin-top: 1rem;
     color: #FFFFFF;
     background:#E02C6D;
     border-radius: 25px;
     cursor: pointer;
+}
+
+.order-button i {
+    vertical-align: middle;
 }
 /* preorder section */
 
@@ -162,6 +172,7 @@ nav h3 {
 .ratings span {
     color: #1C2833;
     margin-left: 5px;
+    vertical-align: middle;
 }
 
 .ratings, .extra-details {
@@ -176,6 +187,10 @@ nav h3 {
     color: #E02C6D;
     cursor: pointer;
     margin-right: 15px;
+}
+
+.see-more-button span i {
+    vertical-align: middle;
 }
 /* collection section */
 
@@ -206,6 +221,7 @@ nav h3 {
     max-width: 400px;
     background: #FFFFFF;
     padding: 2rem 1.5rem;
+    border-radius: 25px;
 }
 
 .form input {
