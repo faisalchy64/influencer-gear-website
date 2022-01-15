@@ -156,6 +156,11 @@ nav h3 {
     
 }
 
+.product-img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
 .product-img img {
     width: 100%;
 }
