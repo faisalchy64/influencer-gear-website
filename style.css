@@ -273,8 +273,13 @@ footer h3 {
     margin-bottom: 5px;
 }
 
+footer p {
+    font-size: 0.70rem;
+}
+
 .social-icons {
     margin-top: 10px;
+    font-size: 1.20rem;
 }
 
 .social-icons .icon {
