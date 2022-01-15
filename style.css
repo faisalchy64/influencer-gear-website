@@ -30,6 +30,7 @@ nav {
 
 .menu-button {
     display: none;
+    cursor: pointer;
 }
 
 nav h3 {
@@ -91,6 +92,10 @@ nav h3 {
     cursor: pointer;
 }
 
+.order-button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);;
+}
+
 .order-button i {
     vertical-align: middle;
 }
@@ -144,7 +149,7 @@ nav h3 {
 
 .product {
     max-width: 400px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0 7px 29px 0px rgba(100, 100, 111, 0.2);
     padding: 15px;
     border-radius: 10px;
     transition: all 0.5s;
